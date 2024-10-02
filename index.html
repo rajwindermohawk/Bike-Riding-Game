@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- I RAJWINDER SINGH,000924676 certify that is work is my own work and I have not allowed anyone else to copy from it-->
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <title>Urban Bike Rider Game</title>
+        <link rel="stylesheet" href="rider.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Urban Bike Rider</h1>
+        </header>
+        
+        
+        <div id="game-container">
+        <svg id="board" width="800" height="500">
+
+            <!-- sky -->
+            <rect x="0" y="0" width="800" height="300" fill="skyblue" />
+      
+    <!-- sun -->
+    <circle cx="350" cy="60" r="40" fill="yellow" />
+         <!-- grass    -->
+        <rect x="0" y="300" width="800" height="80" fill="green" />
+        <!-- road -->
+        <rect x="0" y="380" width="800" height="120" fill="Grey" />
+        <!-- first tree -->
+        <polygon class="tree" points="50,130 90,190 10,190" fill="#0C5C4C"/>
+    
+    <polygon class="tree" points="50,170 95,230 5,230" fill="#0C5C4C"/>
+    
+    <polygon  class="tree" points="50,210 100,270 0,270" fill="#0C5C4C" />
+    
+    <rect class="tree" x="42" y="270" width="15" height="30" fill="brown" />
+    <!-- second tree -->
+    
+    <polygon class="tree" points="220,130 260,190 180,190" fill="#0C5C4C"/>
+    
+    <polygon class="tree" points="220,170 265,230 175,230" fill="#0C5C4C"/>
+    
+    <polygon class="tree" points="220,210 270,270 170,270" fill="#0C5C4C" />
+    
+    <rect class="tree" x="212" y="270" width="15" height="30" fill="brown" />
+    <!-- third tree -->
+    <polygon class="tree" points="390,130 430,190 350,190" fill="#0C5C4C"/>
+    
+    <polygon class="tree" points="390,170 435,230 345,230" fill="#0C5C4C"/>
+    
+    <polygon class="tree" points="390,210 440,270 340,270" fill="#0C5C4C" />
+    
+    <rect class="tree" x="382" y="270" width="15" height="30" fill="brown" />
+    <!-- tree fourth -->
+    <polygon class="tree" points="560,130 600,190 520,190" fill="#0C5C4C"/>
+    
+    <polygon class="tree" points="560,170 605,230 515,230" fill="#0C5C4C"/>
+    
+    <polygon class="tree" points="560,210 610,270 510,270" fill="#0C5C4C" />
+    
+    <rect class="tree" x="552" y="270" width="15" height="30" fill="brown" />
+    <!-- tree fifth -->
+    <polygon class="tree" points="730,130 770,190 690,190" fill="#0C5C4C"/>
+    
+    <polygon class="tree" points="730,170 775,230 685,230" fill="#0C5C4C"/>
+    
+    <polygon class="tree" points="730,210 780,270 680,270" fill="#0C5C4C" />
+    
+    <rect class="tree" x="722" y="270" width="15" height="30" fill="brown" />
+    <!-- cloud -->
+    <path d='M 25,60 
+               a 20,20 1 0,0 0,40 
+               h 50 
+               a 20,20 1 0,0 0,-40 
+               a 10,10 1 0,0 -15,-10 
+               a 15,15 1 0,0 -35,10  
+               z'  fill="#4682B4"/>
+               <path d='M 525,60 
+               a 20,20 1 0,0 0,40 
+               h 50 
+               a 20,20 1 0,0 0,-40 
+               a 10,10 1 0,0 -15,-10 
+               a 15,15 1 0,0 -35,10  
+               z' fill="#4682B4" />
+              
+        </svg>
+    </div>
+    <div id="instructions">
+        <h2>Instructions:</h2>
+        <p>Press <strong>Space</strong> to jump.
+        Refresh the page to restart the game.</p>
+    </div>
+    <footer >
+        &copy;RAJWINDER SINGH, 000924676, MOHAWK COLLEGE, 2024
+    </footer>
+        <script src="rider.js"></script>
+    </body>
+</html>

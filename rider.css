@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    margin-top: 20px;
+    font-size: 24px; 
+    font-weight: bold; 
+
+}
+
+#game-container {
+    margin-top: 20px;
+     border: solid black 3px;
+}
+@keyframes moveTrees {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-800px); 
+    }
+}
+
+.tree {
+    animation: moveTrees 10s linear infinite;
+    
+}
+@media only screen and (max-width: 320px) {
+
+}
+@media only screen and (min-width: 321px) {
+}
+
+
+#board {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+
